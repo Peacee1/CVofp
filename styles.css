@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #4d4d4d;
+  height: 100vh;
+  font-family: "Poppin", sans-serif;
+  color: #bab9b4;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+.head {
+  background-color: #5d5d5d;
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.head ol {
+  display: flex;
+}
+.head img {
+  width: 180px;
+  height: 140px;
+  margin-top: 7px;
+}
+.head i {
+  font-size: 30px;
+  transition: color 0.3s ease;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.head ol li {
+  list-style: none;
+}
+.head ol li a {
+  text-decoration: none;
+  color: #9a8e82;
+  margin-right: 25px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+.head ol li:hover a {
+  color: white;
+}
+.right {
+  width: 100%;
+  display: flex;
+  height: 30px;
+}
+.noidung {
+  height: 100vh;
+}
+.noidung1 h2 {
+  line-height: 1.5;
+  font-size: 32px;
+  font-weight: bold;
+}
+.noidung1 p {
+  font-size: 16px;
+  font-style: italic;
+}
+.noidung1 img {
+  margin-top: -50px;
+  width: 250px;
+}
+.noidung1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  justify-content: center;
+  color: #bab9b4;
+}
+.head i:hover {
+  background-color: #4d4d4d;
+  border: 1px solid black;
+}
+.option1 a {
+  flex: 1;
+}
+.check1:hover + .option1 {
+  display: block;
+}
+.noidung1 span {
+  text-decoration: underline;
+}
+.title1 a {
+  text-decoration: none;
+  margin: 50px 50px 30px;
+  padding: 10px 20px;
+  background-color: #696969;
+  display: inline-block;
+  border-radius: 12px;
+  color: #cac0b4;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.title1:hover a {
+  color: #e5a947;
+  background-color: black;
+}
+.about {
+  display: flex;
+}
+
+.about span {
+  font-size: 32px;
+  font-family: "Poppin", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.about {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+.about img {
+  width: 240px;
+}
+.ab1 {
+  padding: 20px 20px;
+  background-color: #4d4d4d;
+  border: 1px solid #e5a947;
+  border-radius: 15px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.about:hover .ab1 {
+  background-color: #e5a947;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #e5a947;
+  transition: transform 0.3s ease;
+}
+.button:hover {
+  transform: translate(-5px, -5px);
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  margin: 10px;
+  height: 150px;
+  font-size: 32px;
+}
+.exp {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 50;
+  border: 1px solid #bab9b4;
+  margin: 10px;
+  border-radius: 12px;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+.exp i {
+  padding: 0 20px;
+  font-size: 50px;
+}
+.abc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.exp:hover {
+  background-color: black;
+  border: none;
+}
+.lienhe {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lienhe i {
+  font-size: 60px;
+}
+.fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fb a {
+  color: #bab9b4;
+}
+.fb p {
+  margin-left: 8px;
+}
+.fb:hover {
+  color: white;
+}
+.fb:hover p {
+  color: white;
+}
+.fb:hover a {
+  color: white;
+}
