@@ -218,3 +218,8 @@ button {
 .fb:hover a {
   color: white;
 }
+#icon {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-width: 280px;
+}
