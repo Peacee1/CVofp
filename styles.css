@@ -171,6 +171,7 @@ button {
   height: 100%;
   transition: background-color 0.3s ease;
   height: 150px;
+  flex-wrap: wrap;
 }
 .exp i {
   padding: 0 20px;
@@ -192,6 +193,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .lienhe i {
   font-size: 60px;
@@ -201,7 +203,6 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 .fb a {
   color: #bab9b4;
