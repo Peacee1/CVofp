@@ -171,7 +171,6 @@ button {
   height: 100%;
   transition: background-color 0.3s ease;
   height: 150px;
-  flex-wrap: wrap;
 }
 .exp i {
   padding: 0 20px;
